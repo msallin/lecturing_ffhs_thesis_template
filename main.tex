@@ -1,0 +1,31 @@
+% Vorlage fuer Thesen an der FFHS
+\documentclass{ffhsthesis}
+
+\usepackage[utf8]{inputenc}
+
+\begin{document}
+
+\include{chapters/00_title}
+\include{chapters/11_dedication}
+\maketitle
+\include{chapters/12_abstract}
+\include{chapters/13_toc}
+\include{chapters/14_abbreviation}
+
+\startThesis % Befehl muss vor dem ersten chapter stehen (Seitennummerierung!)
+
+\include{chapters/20_introduction}
+\include{chapters/21_material}
+\include{chapters/22_methods}
+\include{chapters/23_results}
+\include{chapters/24_discussion}
+
+\include{chapters/80_figures_tables}
+
+\newpage
+
+\begin{appendix}
+\include{chapters/90_independence_declaration}
+\end{appendix}
+
+\end{document}
