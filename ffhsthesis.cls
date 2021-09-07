@@ -64,7 +64,7 @@
 
 \titlehead{
 \begin{varwidth}[t][2cm][c]{5cm}
-\includegraphics[height=2cm]{graphics/ffhslogo}
+\includegraphics[height=2cm]{graphics/ffhs_logo_de.eps} % change to ffhs_logo_en for english
 \end{varwidth}
 \hfill 
 \begin{varwidth}[t][2cm][c]{7cm}
